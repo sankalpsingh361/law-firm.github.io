@@ -272,9 +272,15 @@ a {
 }
 .faq-grid-row {
   align-items: center;
+  /* display: flex; */
 }
 .faq-grid-column {
   width: 500px;
+}
+.faq-col{
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: center; */
 }
 .faq-title-main {
   font-size: 40px;
@@ -291,8 +297,14 @@ a {
   color: white;
   line-height: 2.5;
 }
-.faq-ans {
+#faq-ans {
   color: rgb(183, 181, 181);
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
 }
 .faq-image {
   background-color: transparent;
