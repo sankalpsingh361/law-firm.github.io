@@ -282,15 +282,21 @@ a {
   /* flex-direction: row; */
   /* justify-content: center; */
 }
+#myBtn{
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  text-align: right;
+  color: #ffd43a;
+  /* padding-left: 50px; */
+}
 .faq-title-main {
   font-size: 40px;
   font-weight: 600;
   color: white;
 }
-.faq-text-main {
-  line-height: 3;
-  color: rgb(183, 181, 181);
-}
+
 .faq-ques {
   font-family: "Poppins", sans-serif;
   font-size: 21px;
@@ -298,7 +304,7 @@ a {
   line-height: 2.5;
 }
 #faq-ans {
-  color: rgb(183, 181, 181);
+  color: rgb(255, 123, 0);
 }
 .hide {
   display: none;
@@ -306,21 +312,21 @@ a {
 .show {
   display: block;
 }
-.faq-image {
+.faq-side-box {
   background-color: transparent;
   justify-self: start;
   padding-top:30px ;
   padding-right: 30px;
   padding-left: 30px;
 }
-.img-heading{
+.box-heading{
   color: rgb(255, 255, 255);
   font-size: 30px;
   font-weight: 600;
   text-align: center;
 
 }
-.img-text{
+.box-text{
   color: rgb(219, 219, 219);
   font-size: 16px;
   text-align:center;
