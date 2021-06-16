@@ -1,5 +1,5 @@
-var btn = document.getElementById("myBtn");
-var para = document.getElementById("faq-ans");
+var btn = document.querySelectorAll("myBtn");
+var para = document.querySelectorAll("faq-ans");
 var isShow = false;
 
 btn.addEventListener("click", () => {
